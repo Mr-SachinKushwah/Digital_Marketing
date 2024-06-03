@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    /* background-color: #ff6347; */
+    
+}
+
+.text-column {
+    padding: 50px;
+    text-align: left;
+}
+
+.text-column h5 {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+.text-column h1 {
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+}
+
+.text-column p {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.btn-danger {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.image-column {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-fluid {
+    width: 50%;
+    height: auto;
+}
+
+.text-column {
+    padding: 50px;
+    text-align: left;
+}
+
+
+.text-column h1 {
+    font-size: 48px;
+    color: #333;
+    font-weight: bold;
+}
+
+.text-column p {
+    color: #555;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    margin: 0 15px;
+}
+
+.hover-image {
+    background-color: #ff6347;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-content {
+    text-align: center;
+}
+
+.hover-content h3 {
+    font-size: 24px;
+}
+
+.hover-content p {
+    font-size: 16px;
+}
+
+.btn-danger {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-hover-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-hover-container img {
+    transition: opacity 0.5s;
+}
+
+.img-hover-container:hover img {
+    opacity: 0;
+}
+
+.img-hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff6347;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.img-hover-container:hover .img-hover-overlay {
+    opacity: 1;
+}
+
+.read-more-btn {
+    background-color: white;
+    color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more-btn:hover {
+    background-color: #ff6347;
+    color: white;
+}
